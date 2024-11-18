@@ -55,6 +55,7 @@ OPTIONAL: 4. Edit Product
 
 6. Mock API
 - [ ] Use the provided API definition to Mock the interactions for all data operations (GET, POST, DELETE).
+      - This can be handled via any Mock Solution like the one here https://github.com/alan2207/bulletproof-react or with Next.JS 
 
 ## Non-Functional Requirements
 1. Error Handling: Gracefully handle API errors with appropriate feedback to users.
