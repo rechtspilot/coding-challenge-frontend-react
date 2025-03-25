@@ -28,7 +28,8 @@ You will interact with a provided API for managing the product data.
 5. Logical Reasoning: Correct implementation of filtering, searching, and other business logic.
 6. Design: Clean and functional UI. You can use any UI framework or custom styling.
 7. Best Practices: Type definitions, code comments, accessibility considerations, etc.
-8. Optional: Showcase of architectural patterns
+8. Collaboration: Readme, commit history
+9. Optional: Showcase of architectural patterns
 
 ## Functional Requirements
 1. Product List
