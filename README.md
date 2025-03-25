@@ -15,7 +15,7 @@ Build a Product Management Dashboard where users can:
 You will interact with a provided API for managing the product data.
 
 ## Prerequisites
-*Duration:* Duration: We estimate this task should take approximately 8 hours. Please provide an estimation of the total time you spent on this challenge if it is not evident from your commit history.
+*Duration:* Duration: We estimate this task should take approximately 4 hours. Please provide an estimation of the total time you spent on this challenge if it is not evident from your commit history.
 *Technology:* React with Typescript
 *Testing:* Write at least one unit test for a critical function/component.
 
@@ -28,7 +28,7 @@ You will interact with a provided API for managing the product data.
 5. Logical Reasoning: Correct implementation of filtering, searching, and other business logic.
 6. Design: Clean and functional UI. You can use any UI framework or custom styling.
 7. Best Practices: Type definitions, code comments, accessibility considerations, etc.
-8. Optional: Showcase of architectural patterns like Backend for Frontend (BFF) (not mandatory).
+8. Optional: Showcase of architectural patterns
 
 ## Functional Requirements
 1. Product List
@@ -47,15 +47,11 @@ You will interact with a provided API for managing the product data.
 3. Add Product
 - [ ] Clicking "Add Product" should open a form to add a new product.
 
-OPTIONAL: 4. Edit Product
+4. Edit Product
 - [ ] Clicking "Edit" in the product list should allow users to edit the product's details.
 
 5. Delete Product
 - [ ] Allow users to delete a product with a confirmation dialog.
-
-6. Mock API
-- [ ] Use the provided API definition to Mock the interactions for all data operations (GET, POST, DELETE).
-      - This can be handled via any Mock Solution like the one here https://github.com/alan2207/bulletproof-react or with Next.JS 
 
 ## Non-Functional Requirements
 1. Error Handling: Gracefully handle API errors with appropriate feedback to users.
@@ -64,7 +60,7 @@ OPTIONAL: 4. Edit Product
 4. Scalability: Design components and the architecture to be extendable for future features.
 
 ## Provided API Definition
-Please mock the following API endpoints
+Use the mocked endpoints
 
 ### Endpoints
 | Method | Endpoint |	Description |
@@ -97,6 +93,7 @@ Please mock the following API endpoints
 
 #### `POST` /
 ```
+201
 {
   "name": "New Product",
   "price": 19.99,
@@ -106,6 +103,7 @@ Please mock the following API endpoints
 ```
 #### Opt: `PATCH` /:id
 ```
+200
 {
   "price": 25.99, // updated value
 }
